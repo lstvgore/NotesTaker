@@ -26,4 +26,7 @@ Deployed Link for this App:
 https://stvgonotetaker.herokuapp.com/
 
 <h1>Screeshots:</h1>
-
+<img width="1275" alt="Screen Shot 2021-01-04 at 8 16 57 PM" src="https://user-images.githubusercontent.com/71686331/103603689-d051ff00-4ed4-11eb-8c19-530241e7244b.png">
+<img width="1270" alt="Screen Shot 2021-01-04 at 8 17 44 PM" src="https://user-images.githubusercontent.com/71686331/103603695-d21bc280-4ed4-11eb-87fd-732b51b22c7e.png">
+<img width="1269" alt="Screen Shot 2021-01-04 at 8 18 25 PM" src="https://user-images.githubusercontent.com/71686331/103603697-d2b45900-4ed4-11eb-9d75-06b087ae79ff.png">
+<img width="1267" alt="Screen Shot 2021-01-04 at 8 18 11 PM" src="https://user-images.githubusercontent.com/71686331/103603700-d34cef80-4ed4-11eb-8cc9-45f81249f9aa.png">
