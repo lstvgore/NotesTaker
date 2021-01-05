@@ -1,27 +1,29 @@
-Title:
-Notes Taker - by lstvgore
+s Taker - by lstvgore
 
-Description:
+<h1>Description:</h1>
 This is an application for anyone who likes to take notes daily, making a very useful to make notes with a title and delete them when the task is done. And add a new one for new projects or notes to remember the projects or the tasks.
 
-Installation Instructions:
+<h1>Installation Instructions:</h1>
 Use the delpoyed link to use the app
 
-Usage Information:
+<h1>Usage Information:</h1>
 user can make their own notes.
 user can Delete their notes.
 
-Contribution Guidelines:
+<h1>Contribution Guidelines:</h1>
 N/A
 
-Test Instructions:Title the task or Project Name to the organization of the Note takerDescription of what is the Tasks of Projects is aboutDelete when the task or project is done
+<h1>Test Instructions:</h1>
+Title the task or Project Name to the organization of the Note taker
+Description of what is the Tasks of Projects is aboutDelete when the task or project is done
 
-GitHub Link:
+<h1>GitHub Link:</h1>
 GitHub Link for this App: 
 https://github.com/lstvgore/NotesTaker
 
-Deployed:
+<h1>Deployed:</h1>
 Deployed Link for this App: 
 https://stvgonotetaker.herokuapp.com/
 
-Screeshots:
+<h1>Screeshots:</h1>
+
