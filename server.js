@@ -1,13 +1,11 @@
 const express = require("express");
-const { dirname } = require("path");
 const path = require("path");
 const fs = require("fs");
 
-let note =[{ id: 1, body: 'text here'},{id: 2, body: 'this is a second text'}]
+
 
 
 const app = express();
-const newLocal = 3000;
 const PORT = process.env.PORT||3000;
 
 
@@ -57,6 +55,28 @@ app.post('/api/notes', function(req, res){
   console.log(req.body)
   res.redirect('/');
 });
+
+app.delete(`/api/notes/:id`, function(req, res){
+    console.log('GET HERE');
+    console.log(req.body);
+    fs.readFile(path.join(__dirname,"db","db.json"),"utf8", function(error,data){
+        if (error) throw error;
+        const allNotes = JSON.parse(data);
+        const delNote = req.params.id;
+        const result = allNotes.filter(note => note.id != delNote);
+        
+        console.log(allNotes);
+        console.log(result);
+        
+        fs.writeFile(path.join(__dirname,"db","db.json"), JSON.stringify(result),function(error){
+            if (error) res.json ({ err: "problem deleting "});
+            // res.json(result);
+            // res.json({message: "success delete"});
+            console.log('write to file success')
+        });
+        res.redirect('/');
+    })
+})
 
 app.listen(PORT, function(){
     console.log("server start running")
